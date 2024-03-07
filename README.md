@@ -38,6 +38,6 @@ Enjoy testing your passwords with PST!
 If you want to contribute you can check out the repository files:
 ```bash
 git clone https://github.com/RushiChaganti/PST.git
-'''
+```
 
 Feel free to let me know if you need any further modifications or additions!
