@@ -1,5 +1,5 @@
 # PST
-# Password Strength Tester (PST)
+## Password Strength Tester (PST)
 
 Welcome to the Password Strength Tester (PST) project repository! PST is a tool to evaluate the strength of passwords.
 
@@ -34,3 +34,10 @@ To run the Password Strength Tester application locally using Docker, follow the
 Due to the inability to upload larger files, we have containerized the necessary files and dependencies. If you have any questions or encounter any issues while running the project, feel free to open an issue in this repository.
 
 Enjoy testing your passwords with PST!
+
+If you want to contribute you can check out the repository files:
+```bash
+git clone https://github.com/RushiChaganti/PST.git
+'''
+
+Feel free to let me know if you need any further modifications or additions!
