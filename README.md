@@ -5,29 +5,27 @@ Welcome to the Password Strength Tester (PST) project repository! PST is a tool 
 
 ## Overview
 
-This project provides a Dockerized setup for running the Password Strength Tester application using Streamlit. Due to the limitation of uploading larger files to GitHub, we have containerized the necessary files and dependencies to ensure easy access and execution of the project.
+This project provides a Dockerized setup for running the Password Strength Tester application using Streamlit. Due to the limitation of uploading larger files to GitHub, we have containerized the necessary files and dependencies to ensure easy access and execution of the project. To utilize this project, you'll need to pull the Docker image from a Docker registry.
 
 ## Prerequisites
 
-Before getting started, ensure that you have Docker and Docker Compose installed on your system. You can download and install Docker Desktop from [here](https://www.docker.com/products/docker-desktop).
+Before getting started, ensure that you have Docker installed on your system. You can download and install Docker Desktop from [here](https://www.docker.com/products/docker-desktop).
 
 ## Usage
 
-To run the Password Strength Tester application locally using Docker Compose, follow these steps:
+To run the Password Strength Tester application locally using Docker, follow these steps:
 
-1. Clone this repository to your local machine:
+1. Pull the Docker image from the Docker registry:
     ```bash
-    git clone https://github.com/RushiChaganti/PST.git
+    docker pull rushichaganti/pst:latest
     ```
-2. Navigate to the project directory
+
+2. Once the image is pulled successfully, you can run the Docker container with the following command:
     ```bash
-    cd password-strength-tester
+    docker run -d -p 8501:8501 rushichaganti/pst:latest
     ```
-3. Run the following command to start the Docker containers:
-    ```bash
-    docker-compose up -d
-    ```
-4. Once the containers are up and running, you can access the Password Strength Tester application in your web browser at:
+
+3. After the container is up and running, you can access the Password Strength Tester application in your web browser at:
     ```
     http://localhost:8501
     ```
