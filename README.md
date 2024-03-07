@@ -17,7 +17,7 @@ To run the Password Strength Tester application locally using Docker, follow the
 
 1. Pull the Docker image from the Docker registry:
     ```bash
-    docker pull rushichaganti/pst:latest
+    docker pull atom1326/pst:latest
     ```
 
 2. Once the image is pulled successfully, you can run the Docker container with the following command:
