@@ -39,7 +39,8 @@ If you want to contribute you can check out the repository files:
 ```bash
 git clone https://github.com/RushiChaganti/PST.git
 ```
-
-[![Watch the video][https://github.com/RushiChaganti/Dockerized_PST/blob/main/password_capture.mp4]]
-
 Feel free to let me know if you need any further modifications or additions!
+
+
+[![Watch the video](https://github.com/RushiChaganti/Dockerized_PST/blob/main/password_capture.mp4)](https://github.com/RushiChaganti/Dockerized_PST/blob/main/password_capture.mp4)
+
